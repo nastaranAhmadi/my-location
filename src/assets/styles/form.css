@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.action {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    right: 0;
+}
+button {
+    padding: 8px 16px;
+    margin: 16px 0px 8px 8px;
+    border-radius: 8px;
+    width: 80px;
+}
+button.save {
+    background-color: #87CEFA;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #87CEFA;
+}
+button.cancel {
+    background-color: #ababab;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #ababab;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.file {
+    display: none;
+    visibility: hidden;
+}
+.fileName{
+    background-color: #fff !important;
+    color: #000 !important;
+    max-width: 170px;
+    overflow: 'clip';
+}
+.form {
+    max-width: fit-content;
+    border: 2px solid #4682B4;
+    border-radius: 8px;
+    position: relative;
+}
+.formHeader {
+    background-color: #4682B4;
+    padding: 4px 16px;
+}
+.formHeader > p {
+    color: #fff;
+    font-weight: 500;
+}
+.formContent {
+    padding: 4px 16px;
+}
+input, select {
+    height: 32px;
+    border: 1px solid #ababab;
+    border-radius: 8px;
+    padding: 4px;
+}
+.mapContainer {
+    max-width: 200px;
+    max-height: 200px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 12px auto;
+}
+.row > label {
+    font-weight: bold;
+}
+.uploadContainer {
+    border: 2px solid #4682B4;
+    background-color: #87CEFA;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uploadContainer > p {
+    background-color: #4682B4;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+}
+.uploadContainer > img {
+    width: 50px;
+    margin: 8px;
+}
+.uploadIcon {
+    width: 80px;
+}
